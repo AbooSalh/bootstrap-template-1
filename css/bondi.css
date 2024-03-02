@@ -13,9 +13,21 @@
 :root {
   --dark-color: #19283f;
   --green-color: #33d1cc;
+  --red-Color: #ff3150;
+  --yellow-color: #ffc400;
 }
 body {
-  height: 1000px;
+}
+.main-btn {
+  background-color: var(--red-Color);
+  color: var(--yellow-color);
+  outline: none;
+  border: none;
+  padding:  0.5rem 1rem;
+}
+.main-btn:hover {
+    background-color: var(--red-Color);
+    color: white;
 }
 /* start nav */
 nav {
@@ -42,6 +54,11 @@ nav .navbar-toggler {
 nav .navbar-toggler:focus {
   box-shadow: none;
 }
-nav .navbar-toggler[aria-expanded="true"]{
-    border-color: var(--green-color);
+nav .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--green-color);
+}
+/* start landing */
+.landing {
+  background-color: var(--dark-color);
+  min-height: calc(100vh - 72px);
 }
