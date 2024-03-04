@@ -129,3 +129,7 @@ nav .navbar-toggler[aria-expanded="true"] {
 .our-work .box:hover:before{
   transform: translateX(0);
 }
+/* stuff */
+.stuff .description {
+  min-width: 500px;
+}
